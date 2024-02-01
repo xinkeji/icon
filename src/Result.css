@@ -1,0 +1,48 @@
+.result {
+  width: 256px;
+  margin: 20px;
+}
+
+.icon {
+  height: 256px;
+  width: 256px;
+}
+
+.icon-trackName {
+  font-size: 1.1rem;
+}
+
+.icon-platform {
+  font-size: 0.7rem;
+}
+
+.icon-artistName {
+  font-size: 0.8rem;
+}
+
+a.icon-info:link {
+  color: #000000;
+}
+
+a.icon-info:visited {
+  color: #000000;
+}
+
+a.icon-info:hover {
+  color: #6ee48d;
+}
+
+a.icon-info:active {
+  color: #ffcc7a;
+}
+
+@media screen and (max-width: 650px) {
+  .result {
+    width: 100vw;
+  }
+
+  .icon {
+    height: 75vw;
+    width: 75vw;
+  }
+}
